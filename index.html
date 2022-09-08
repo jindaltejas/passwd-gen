@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/3da1a747b2.js" crossorigin="anonymous" defer></script>
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Password Generator Application</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Password Generator</h1>
+    <h3 class="password-display" id="passwordDisplay"></h3>
+    <form id="passwordGeneratorForm" class="form">
+      <label for="characterAmountNumber">Number Of Characters</label>
+      <div class="character-amount-container">
+        <input type="range" min="1" max="50" value="20" id="characterAmountRange">
+        <input class="number-input" type="number" min="1" max="50" value="20" id="characterAmountNumber">
+      </div>
+
+      <label for="includeLowercase">Include Lowercase</label>
+      <input type="checkbox" id="includeLowercase">
+
+      <label for="includeUppercase">Include Uppercase</label>
+      <input type="checkbox" id="includeUppercase">
+
+      <label for="includeNumbers">Include Numbers</label>
+      <input type="checkbox" id="includeNumbers">
+
+      <label for="includeSymbols">Include Symbols</label>
+      <input type="checkbox" id="includeSymbols">
+
+      <button type="submit" class="btn">Generate Password</button>
+    </form>
+  </div>
+
+
+  <!--social panel-->
+  <div class="social-panel-container">
+  	<div class="social-panel">
+  		<p>Created with <i class="fa fa-heart"></i> by <span class="name">Tejas Jindal</span></p>
+  		<button class="close-btn"><i class="fas fa-times"></i></button>
+  		<h4>Get in touch on</h4>
+  		<ul>
+  			<li>
+  				<a href="https://www.linkedin.com/in/jindal-tejas/" target="_blank">
+  					<i class="fab fa-linkedin"></i>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="https://www.facebook.com/jindal.tejas" target="_blank">
+  					<i class="fab fa-facebook"></i>
+  				</a>
+  			</li>
+  			<li>
+  				<a href="https://www.instagram.com/jindal.tejas/" target="_blank">
+  					<i class="fab fa-instagram"></i>
+  				</a>
+  			</li>
+
+        <li>
+  				<a href="https://github.com/jindaltejas" target="_blank">
+  					<i class="fab fa-github"></i>
+  				</a>
+  			</li>
+  		</ul>
+  	</div>
+  </div>
+  <button class="floating-btn">
+  	Get in Touch
+  </button>
+</body>
+</html>
