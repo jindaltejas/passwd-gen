@@ -118,6 +118,10 @@ label {
 	max-width: calc(100% - 10px);
 }
 
+.created-with{
+	font-family: 'Noto Sans', sans-serif;
+}
+
 .social-panel button.close-btn {
 	border: 0;
 	color: #97A5CE;
