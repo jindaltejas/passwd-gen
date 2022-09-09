@@ -83,7 +83,8 @@ label {
 }
 
 .btn:hover {
-  background-color: #DBE2EF  ;
+  background-color: #f1fbfe;
+  opacity: 0.75;
   color: black;
 }
 
