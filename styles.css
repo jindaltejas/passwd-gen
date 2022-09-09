@@ -146,7 +146,7 @@ label {
 	transform: translateX(-50%);
 	text-align: center;
 	width: 235px;
-	font-family: 'Noto Sans';
+	font-family: 'Noto Sans', sans-serif;
 }
 
 .social-panel p i {
